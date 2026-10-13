@@ -60,17 +60,59 @@
       <div class="hero-bottom"><span>Ideas into useful experiences.</span><a href="#projects">Explore the portfolio <span aria-hidden="true">↓</span></a></div>
     </section>
     <section class="section-shell content-section" id="projects" aria-labelledby="projects-title">
-      <div class="section-heading"><div><p class="eyebrow">01 / Selected work</p><h2 id="projects-title">Built to solve.</h2></div><p>Web applications, systems, and tools.<br>Project details will be added with verified sources.</p></div>
+      <div class="section-heading"><div><p class="eyebrow">01 / Selected work</p><h2 id="projects-title">Built to solve.</h2></div><p>Four projects across business tools, education, data analysis, and client management.</p></div>
       <div class="project-grid">
-        <article class="project-card"><div class="project-art" aria-hidden="true"><span>01</span><div class="wireframe"><i></i><i></i><i></i></div></div><div class="card-body"><p class="eyebrow">Project details pending</p><h3>[TODO: INSERT PROJECT 01]</h3><p>Repository, category, problem, solution, technologies, features, and supported status to be supplied.</p></div></article>
-        <article class="project-card"><div class="project-art alternate" aria-hidden="true"><span>02</span><div class="wireframe"><i></i><i></i><i></i></div></div><div class="card-body"><p class="eyebrow">Project details pending</p><h3>[TODO: INSERT PROJECT 02]</h3><p>Repository, category, problem, solution, technologies, features, and supported status to be supplied.</p></div></article>
-        <article class="project-card"><div class="project-art alternate" aria-hidden="true"><span>03</span><div class="wireframe"><i></i><i></i><i></i></div></div><div class="card-body"><p class="eyebrow">Project details pending</p><h3>[TODO: INSERT PROJECT 03]</h3><p>Repository, category, problem, solution, technologies, features, and supported status to be supplied.</p></div></article>
-        <article class="project-card"><div class="project-art" aria-hidden="true"><span>04</span><div class="wireframe"><i></i><i></i><i></i></div></div><div class="card-body"><p class="eyebrow">Project details pending</p><h3>[TODO: INSERT PROJECT 04]</h3><p>Repository, category, problem, solution, technologies, features, and supported status to be supplied.</p></div></article>
+        <article class="project-card">
+          <div class="project-art " aria-hidden="true"><span>01 / AMIYEN</span><div class="wireframe"><i></i><i></i><i></i></div></div>
+          <div class="card-body"><p class="eyebrow">Business mathematics</p><h3>Amiyen</h3>
+            <p class="project-description">A browser-based calculator that brings common business mathematics into one workspace. It provides 24 calculation modules, saves inputs and results, and lets users revisit their work through dashboards and CSV exports.</p>
+            <dl class="project-context"><dt>Problem</dt><dd>Business calculations span many formulas, and past results can be difficult to organize.</dd><dt>Solution</dt><dd>A Flask application with dedicated calculator forms and a SQLite-backed calculation history.</dd></dl>
+            <ul class="tags" aria-label="Amiyen technologies"><li>Python</li><li>Flask</li><li>SQLite</li><li>JavaScript</li></ul>
+            <p class="project-features">24 calculator modules · Saved calculation history · Canvas charts · CSV exports</p>
+            <a class="project-link" href="https://github.com/khaiyenIsCanadianHam/Amiyen">View Amiyen repository <svg class="arrow-icon" aria-hidden="true" viewBox="0 0 24 24"><path d="M5 19 19 5M5 5h14v14"/></svg></a>
+          </div>
+        </article>
+        <article class="project-card">
+          <div class="project-art alternate" aria-hidden="true"><span>02 / QR ATTENDANCE SYSTEM</span><div class="wireframe"><i></i><i></i><i></i></div></div>
+          <div class="card-body"><p class="eyebrow">Education / attendance</p><h3>QR Attendance System</h3>
+            <p class="project-description">A teacher-operated web application for recording student attendance with QR codes. Teachers can check students in, record time-outs, monitor active attendance, and export reports from a protected dashboard.</p>
+            <dl class="project-context"><dt>Problem</dt><dd>Manual attendance records make check-ins, time-outs, and reporting harder to manage.</dd><dt>Solution</dt><dd>A roster-backed QR workflow with teacher authentication, attendance records, and CSV reporting.</dd></dl>
+            <ul class="tags" aria-label="QR Attendance System technologies"><li>Python</li><li>Flask</li><li>SQLite</li><li>PostgreSQL (optional)</li></ul>
+            <p class="project-features">QR credential generation and revocation · Teacher login · Check-in / time-out · Roster imports</p>
+            <a class="project-link" href="https://github.com/khaiyenIsCanadianHam/Attendance-System-by-Khaiyen">View QR Attendance System repository <svg class="arrow-icon" aria-hidden="true" viewBox="0 0 24 24"><path d="M5 19 19 5M5 5h14v14"/></svg></a>
+          </div>
+        </article>
+        <article class="project-card">
+          <div class="project-art " aria-hidden="true"><span>03 / KHAMI</span><div class="wireframe"><i></i><i></i><i></i></div></div>
+          <div class="card-body"><p class="eyebrow">Data analysis / interface prototype</p><h3>Khami</h3>
+            <p class="project-description">A business-data analysis interface with charts, sample workspaces, and a local FastAPI bridge for a Python analysis engine. The interface can be explored with demo data; the repository states that the ML engine is not yet included or connected.</p><p class="project-status">In development — ML engine integration pending</p>
+            <dl class="project-context"><dt>Problem</dt><dd>Non-specialist users need a clearer way to explore analysis workflows and understand their outputs.</dd><dt>Solution</dt><dd>A React and TypeScript interface with sample-mode workflows and an API integration boundary.</dd></dl>
+            <ul class="tags" aria-label="Khami technologies"><li>React</li><li>TypeScript</li><li>Vite</li><li>FastAPI</li></ul>
+            <p class="project-features">Demo workspace · Analysis and prediction views · CSV interface · Local API bridge</p>
+            <a class="project-link" href="https://github.com/khaiyenIsCanadianHam/Khami">View Khami repository <svg class="arrow-icon" aria-hidden="true" viewBox="0 0 24 24"><path d="M5 19 19 5M5 5h14v14"/></svg></a>
+          </div>
+        </article>
+        <article class="project-card">
+          <figure class="project-screenshot"><img src="assets/images/hanami-dashboard.webp" width="1200" height="1085" loading="lazy" alt="Hanami dashboard showing its labeled fictional demonstration workspace, project stages, and upcoming tasks."><figcaption>Repository screenshot · Fictional demonstration data</figcaption></figure>
+          <div class="card-body"><p class="eyebrow">Client &amp; project management</p><h3>Hanami</h3>
+            <p class="project-description">A locally hosted workspace for managing website-development clients from inquiry through delivery and maintenance. It connects leads, projects, tasks, proposals, payments, documents, and reviewed email workflows in one application.</p>
+            <dl class="project-context"><dt>Problem</dt><dd>A website project spans client communication, commercial records, development tasks, and handover.</dd><dt>Solution</dt><dd>A Flask and SQLite CRM that connects those records through a staged project lifecycle and explicit approvals.</dd></dl>
+            <ul class="tags" aria-label="Hanami technologies"><li>Python</li><li>Flask</li><li>SQLAlchemy</li><li>SQLite</li></ul>
+            <p class="project-features">Project lifecycle tracking · Proposals and invoices · CSV / PDF exports · Dedicated scheduler</p>
+            <a class="project-link" href="https://github.com/khaiyenIsCanadianHam/Hanami">View Hanami repository <svg class="arrow-icon" aria-hidden="true" viewBox="0 0 24 24"><path d="M5 19 19 5M5 5h14v14"/></svg></a>
+          </div>
+        </article>
       </div>
     </section>
     <section class="section-shell content-section" id="research" aria-labelledby="research-title">
-      <div class="section-heading"><div><p class="eyebrow">02 / Research</p><h2 id="research-title">Curiosity, applied.</h2></div><p>Exploring how technology can address real-world problems.</p></div>
-      <div class="empty-entry"><span class="entry-icon" aria-hidden="true">/</span><div><h3>[TODO: INSERT RESEARCH INFORMATION]</h3><p>Research title, year, category, plain-language summary, verified contribution, and document link to be supplied.</p></div><span class="entry-note">Sources pending</span></div>
+      <div class="section-heading"><div><p class="eyebrow">02 / Research</p><h2 id="research-title">Curiosity, applied.</h2></div><p>Academic work exploring education, digital literacy, data analysis, and Python-based tools.</p></div>
+      <div class="research-list">
+        <article class="research-entry" id="research-attendance-draft"><span class="research-number" aria-hidden="true">01</span><div><p class="eyebrow">Academic draft · 2025</p><h3>Development of a Web-Based Attendance Monitoring System for ICT Students at the Philippine Women’s University</h3><p>Explores a QR-based attendance workflow to help teachers record, monitor, and report student attendance.</p><p class="research-role">Co-author, as listed on the supplied title page.</p><a class="research-link" href="assets/research/attendance-draft-excerpt.pdf">Read attendance draft excerpt (PDF) <svg class="arrow-icon" aria-hidden="true" viewBox="0 0 24 24"><path d="M5 19 19 5M5 5h14v14"/></svg></a></div></article>
+        <article class="research-entry" id="research-python-combinatorics"><span class="research-number" aria-hidden="true">02</span><div><p class="eyebrow">Academic paper · 2025</p><h3 lang="fil">Pagpapabuti ng mga Pagkakalkula ng Permutasyon at Kombinasyon sa Python: Isang Pagtatasa ng Performansa ng mga Algoritmo at Data Structure</h3><p>Examines a Python-based permutation and combination calculator, with attention to computational efficiency, input validation, and usability.</p><p class="research-role">Co-author, as listed on the supplied title page.</p><a class="research-link" href="assets/research/python-combinatorics-excerpt.pdf">Read Python combinatorics excerpt (PDF) <svg class="arrow-icon" aria-hidden="true" viewBox="0 0 24 24"><path d="M5 19 19 5M5 5h14v14"/></svg></a></div></article>
+        <article class="research-entry" id="research-data-analysis-concept"><span class="research-number" aria-hidden="true">03</span><div><p class="eyebrow">Concept paper · Year: [TODO: INSERT YEAR]</p><h3>Development of Data Analyst-Like Machine Learning Artificial Intelligence Software</h3><p>Proposes a Python tool that cleans CSV data, selects analytical methods, and presents understandable charts for non-specialist users.</p><a class="research-link" href="assets/research/data-analysis-concept-excerpt.pdf">Read data-analysis concept excerpt (PDF) <svg class="arrow-icon" aria-hidden="true" viewBox="0 0 24 24"><path d="M5 19 19 5M5 5h14v14"/></svg></a></div></article>
+        <article class="research-entry" id="research-rural-education"><span class="research-number" aria-hidden="true">04</span><div><p class="eyebrow">Study outline · Year: [TODO: INSERT YEAR]</p><h3>Enhance Rural Education Through Integrated ICT Solution</h3><p>Outlines an ICT learning platform for rural communities in Santa Cruz, Laguna, combining digital resources, blended learning, and progress monitoring.</p><a class="research-link" href="assets/research/rural-education-excerpt.pdf">Read rural-education excerpt (PDF) <svg class="arrow-icon" aria-hidden="true" viewBox="0 0 24 24"><path d="M5 19 19 5M5 5h14v14"/></svg></a></div></article>
+        <article class="research-entry" id="research-digital-literacy"><span class="research-number" aria-hidden="true">05</span><div><p class="eyebrow">Study outline · Year: [TODO: INSERT YEAR]</p><h3>The Role of ICT in Enhancing Digital Literacy Among Students</h3><p>Explores guided ICT activities that help students evaluate online information, use digital tools, and practice responsible online communication.</p><p class="research-source-note">Title follows the supplied filename; the PDF cover has a different title.</p><a class="research-link" href="assets/research/digital-literacy-excerpt.pdf">Read digital-literacy excerpt (PDF) <svg class="arrow-icon" aria-hidden="true" viewBox="0 0 24 24"><path d="M5 19 19 5M5 5h14v14"/></svg></a></div></article>
+      </div>
     </section>
     <section class="section-shell content-section" id="certifications" aria-labelledby="certifications-title">
       <div class="section-heading"><div><p class="eyebrow">03 / Credentials</p><h2 id="certifications-title">Learning, continued.</h2></div><p>A place for verified certifications and professional credentials.</p></div>

@@ -12,6 +12,14 @@
 
 The application has no build, dependency installation, or code-generation step. It can be served directly from the checkout. Publication and real email delivery require the settings/key described in README.
 
+## Project and research content update
+
+- The existing **31 browser checks passed again** after integrating four supplied repositories and five research entries.
+- Eight homepage axe audits across 320/375/768/1440 px and light/dark themes reported **zero violations**; no horizontal overflow was found at those widths.
+- Four repository actions and five research-download actions are present. The repositories were successfully cloned for source inspection. Each public PDF is a readable three-page source excerpt and returned HTTP 200 from the local server.
+- HTML parsing, unique IDs, internal anchors, and asset targets passed again. The project/research layout was reviewed in desktop/mobile screenshots.
+- Live project demonstrations were not supplied. Formal research publication, missing years/attribution, and the digital-literacy title discrepancy remain subject to the source notes in `docs/sources.md`.
+
 ## Manual and live release checklist
 
 These checks remain for final production review unless separately recorded below:

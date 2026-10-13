@@ -22,16 +22,18 @@ The site path is `/khaiyensalaria.github.io/`. Serving the parent directory also
 - [Design decisions](docs/design.md): interpretation of all fourteen supplied design documents, design summary, and accessibility/performance alternatives.
 - [Validation report and manual checklist](docs/testing.md): executed checks and remaining verification.
 - [Browser checks](tests/browser_checks.py): optional development-only tests; API delivery is mocked.
+- [Content sources](docs/sources.md): project source commits, research attribution, excerpt pages, and unresolved source details.
 
-All website source is committed directly at the repository root so GitHub Pages can publish `/ (root)`. The brief's `portfolio/` directory represents the project itself, not an additional deployment subdirectory. Images are optional. The existing preview is an original text-only name card, not a portrait, project screenshot, or fabricated project.
+All website source is committed directly at the repository root so GitHub Pages can publish `/ (root)`. The brief's `portfolio/` directory represents the project itself, not an additional deployment subdirectory. The social preview is an original text-only name card. Hanami uses a real repository screenshot, labeled as fictional demonstration data; other project illustrations are neutral CSS wireframes, not screenshots.
 
 ## Unresolved content and configuration
 
-No portfolio project URLs, research documents, certificates, or employment details were included in the supplied files. Their slots are explicitly marked and have no fake links, dates, accomplishments, or technology tags. Supply:
+The four supplied project repositories and five research PDFs are now represented with sourced descriptions and links. Research downloads are selected source-page excerpts rather than complete documents with personal appendices. Certifications and employment details remain pending. Supply:
 
 - `[TODO: INSERT PROFILE PHOTO]`: your portrait; you said this will arrive later.
-- `[TODO: INSERT PROJECT 01]` through `04`: repository/README, category, description, problem, solution, technologies, features, supported status, and optional demo URLs/images. Supply demo URLs or state none. Descriptions should be 2–3 sentences based on the sources.
-- `[TODO: INSERT RESEARCH INFORMATION]`: titles, years, categories, summaries, verified contributions, document/publication links, and whether the work was published. Do not equate unpublished academic work with peer review.
+- Optional live demo URLs and additional real project screenshots; none were supplied. The project repositories are linked directly.
+- `[TODO: INSERT YEAR]`: years for the data-analysis concept paper, rural-education outline, and digital-literacy outline. Their author/contribution information is also absent; supply verified attribution and your specific role if you want it shown. The two 2025 academic papers list Khaiyen as a co-author; specific individual contributions and formal publication status are not established.
+- Clarify the digital-literacy PDF's cover-title mismatch before presenting its title as final. See docs/sources.md.
 - `[TODO: INSERT CERTIFICATIONS]`: certificate names, issuing organizations, issue dates, optional credential IDs, and actual verification URLs/documents. Omit verification links if unavailable.
 - `[TODO: INSERT VERIFIED PROFESSIONAL EXPERIENCE]`: roles, organizations, dates, responsibilities, and sources. Do not invent clients or employment history.
 - `[TODO: INSERT INQUIRY RETENTION PERIOD AND ANY ADDITIONAL APPLICABLE PRIVACY DETAILS]`: a real retention policy and relevant privacy details; review the notice before collecting inquiries.
@@ -70,7 +72,7 @@ The stable fields are `name`, `email`, `business_name`, `existing_website`, `pro
 ## Replace and add assets
 
 - **Profile:** supply `assets/images/profile.webp`, preferably about 800 × 1000 px (4:5), with an appropriate crop. Replace `.portrait-placeholder` with `<img class="profile-photo" src="assets/images/profile.webp" width="800" height="1000" alt="Khaiyen Alexander R. Salaria" fetchpriority="high">`. Adjust dimensions to the real image. Keep it eager above the fold.
-- **Projects:** optional `assets/images/project-01.webp` through `project-04.webp`, preferably 1200 × 750 px with consistent landscape crops. Use actual project screenshots, intrinsic dimensions, meaningful alt text, and `loading="lazy"`. Remove each neutral CSS illustration when adding the corresponding real image.
+- **Projects:** additional real screenshots are optional, preferably 1200 × 750 px with consistent landscape crops. `assets/images/hanami-dashboard.webp` (1200 × 1085 px) is derived from the supplied Hanami repository's actual screenshot and labeled as fictional demonstration data. Use actual project screenshots, intrinsic dimensions, meaningful alt text, and `loading="lazy"`. Remove each neutral CSS illustration when adding the corresponding real image.
 - **Social preview:** `assets/preview.png` is 1200 × 630 px and already exists. Replace with an accurate branded preview if desired; keep Open Graph/Twitter URLs and dimensions consistent. Do not use nonexistent image references.
 - **Favicon:** the included SVG is a personal `ks.` wordmark, rendered at any resolution.
 
@@ -78,7 +80,7 @@ The stable fields are `name`, `email`, `business_name`, `existing_website`, `pro
 
 - **New project:** duplicate a project `<article>` in `#projects`, replace every pending field with verified content, add a meaningful category/status and technology list, and link to the actual repository and demo only when available. Link labels should identify the project; CSS-only placeholders are neutral visuals, not screenshots.
 - **Biography and skills:** edit `#about` and the hero supporting copy. Add only supported skills. The current list is drawn from the supplied biography.
-- **Research:** replace the pending entry in `#research` with one entry per supplied work. Include year, plain-language purpose, verified role, and available document links.
+- **Research:** add or update `.research-entry` articles in `#research`. Include verified year, plain-language purpose, verified role, and document links. Downloads under `assets/research/` are source excerpts with personal appendices omitted; label excerpts accurately. Maintain the source record in docs/sources.md.
 - **Certificates:** replace the pending entry in `#certifications`; show issuer and actual issue date, avoiding unnecessary personal identifiers.
 - **Experience:** replace the pending details under About once verified roles are supplied.
 - **Form options/budget ranges:** edit the corresponding `<select>` options and feature checkboxes directly in `index.html`. Budget ranges qualify scope; they are not fixed pricing packages. Changing a project category requires matching its `.conditional` `data-project` value. Add a field's name and human-readable label to `reviewLabels` in `script.js` to include it in review.

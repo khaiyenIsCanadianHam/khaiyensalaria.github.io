@@ -18,7 +18,14 @@ The application has no build, dependency installation, or code-generation step. 
 - Eight homepage axe audits across 320/375/768/1440 px and light/dark themes reported **zero violations**; no horizontal overflow was found at those widths.
 - Four repository actions and five research-download actions are present. The repositories were successfully cloned for source inspection. Each public PDF is a readable three-page source excerpt and returned HTTP 200 from the local server.
 - HTML parsing, unique IDs, internal anchors, and asset targets passed again. The project/research layout was reviewed in desktop/mobile screenshots.
-- Live project demonstrations were not supplied. Formal research publication, missing years/attribution, and the digital-literacy title discrepancy remain subject to the source notes in `docs/sources.md`.
+- Live project demonstrations were not supplied. Formal research publication, attribution, and the digital-literacy title discrepancy remain subject to the source notes in `docs/sources.md`. The concept-paper years were subsequently confirmed as 2026 by the user.
+
+## Certificates, concept-paper years, and portrait update
+
+- Three Microsoft/LinkedIn Learning certificates were added with exact titles, completion dates, identifiers, and PDF download links. Each PDF's recipient text and local HTTP 200 response were checked.
+- All three concept-paper entries display the user-confirmed year **2026**. The portrait loads as an 800 × 1000 WebP image with descriptive alt text and intrinsic dimensions; its prepared-image provenance is documented in `docs/sources.md`.
+- The **31 browser regression checks passed again** after the portrait and certificate updates. Eight homepage accessibility audits across light/dark themes and 320/375/768/1440 px reported **zero violations**, with no horizontal overflow.
+- HTML parsing, internal anchors, local asset paths, and desktop/mobile screenshots were checked. Independent certificate verification was not claimed: the supplied PDFs have no verification URLs.
 
 ## Manual and live release checklist
 
@@ -44,7 +51,7 @@ These checks remain for final production review unless separately recorded below
 - [ ] Validate sitemap XML and robots location at the deployed address; submit sitemap in Search Console after verifying ownership.
 - [ ] Check Person JSON-LD using Schema.org Validator; Google's Rich Results Test may report no supported rich-result type for Person, which is not a ranking guarantee or a schema failure.
 - [ ] Visit a nonexistent nested path on GitHub Pages and confirm the matching 404, its CSS/favicon, and homepage link.
-- [ ] Replace the photo placeholder with the supplied portrait, verify alt text and intrinsic dimensions, and rerun layout checks.
+- [x] Replace the photo placeholder with the prepared portrait, verify alt text and intrinsic dimensions, and rerun layout checks.
 
 ## Test runner
 

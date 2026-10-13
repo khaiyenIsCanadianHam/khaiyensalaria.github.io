@@ -28,13 +28,13 @@ All website source is committed directly at the repository root so GitHub Pages 
 
 ## Unresolved content and configuration
 
-The four supplied project repositories and five research PDFs are now represented with sourced descriptions and links. Research downloads are selected source-page excerpts rather than complete documents with personal appendices. Certifications and employment details remain pending. Supply:
+The four supplied project repositories and five research PDFs are now represented with sourced descriptions and links. Research downloads are selected source-page excerpts rather than complete documents with personal appendices. Three supplied Microsoft/LinkedIn Learning certificates are included; professional experience details remain pending. Supply:
 
-- `[TODO: INSERT PROFILE PHOTO]`: your portrait; you said this will arrive later.
+- Profile portrait and three certificates are included. The portrait was prepared from the supplied image; source details are recorded in docs/sources.md.
 - Optional live demo URLs and additional real project screenshots; none were supplied. The project repositories are linked directly.
-- `[TODO: INSERT YEAR]`: years for the data-analysis, rural-education, and digital-literacy concept papers. Their author/contribution information is also absent; supply verified attribution and your specific role if you want it shown. The two 2025 academic papers list Khaiyen as a co-author; specific individual contributions and formal publication status are not established.
+- The user confirmed 2026 for all three concept papers. Their author/contribution information is absent from the PDFs; supply verified attribution and your specific role if you want it shown. The two 2025 academic papers list Khaiyen as a co-author; specific individual contributions and formal publication status are not established.
 - Clarify the digital-literacy PDF's cover-title mismatch before presenting its title as final. See docs/sources.md.
-- `[TODO: INSERT CERTIFICATIONS]`: certificate names, issuing organizations, issue dates, optional credential IDs, and actual verification URLs/documents. Omit verification links if unavailable.
+- Certificate PDF links and identifiers are included. No independent verification URLs were supplied or embedded in the PDFs, so verification actions are omitted.
 - `[TODO: INSERT VERIFIED PROFESSIONAL EXPERIENCE]`: roles, organizations, dates, responsibilities, and sources. Do not invent clients or employment history.
 - `[TODO: INSERT INQUIRY RETENTION PERIOD AND ANY ADDITIONAL APPLICABLE PRIVACY DETAILS]`: a real retention policy and relevant privacy details; review the notice before collecting inquiries.
 - `[YOUR_WEB3FORMS_ACCESS_KEY]`: a public Web3Forms form key for `khaiyenbusiness@gmail.com`. Delivery is deliberately disabled in the enhanced form until configured. Direct email remains available.
@@ -71,7 +71,7 @@ The stable fields are `name`, `email`, `business_name`, `existing_website`, `pro
 
 ## Replace and add assets
 
-- **Profile:** supply `assets/images/profile.webp`, preferably about 800 × 1000 px (4:5), with an appropriate crop. Replace `.portrait-placeholder` with `<img class="profile-photo" src="assets/images/profile.webp" width="800" height="1000" alt="Khaiyen Alexander R. Salaria" fetchpriority="high">`. Adjust dimensions to the real image. Keep it eager above the fold.
+- **Profile:** `assets/images/profile.webp` is included at 800 × 1000 px (4:5). To replace it, use your desired portrait, keep the same asset path, and update the image dimensions/alt text to match. Keep it eager above the fold. An original downloadable image file can replace the current prepared portrait directly.
 - **Projects:** additional real screenshots are optional, preferably 1200 × 750 px with consistent landscape crops. `assets/images/hanami-dashboard.webp` (1200 × 1085 px) is derived from the supplied Hanami repository's actual screenshot and labeled as fictional demonstration data. Use actual project screenshots, intrinsic dimensions, meaningful alt text, and `loading="lazy"`. Remove each neutral CSS illustration when adding the corresponding real image.
 - **Social preview:** `assets/preview.png` is 1200 × 630 px and already exists. Replace with an accurate branded preview if desired; keep Open Graph/Twitter URLs and dimensions consistent. Do not use nonexistent image references.
 - **Favicon:** the included SVG is a personal `ks.` wordmark, rendered at any resolution.
@@ -81,7 +81,7 @@ The stable fields are `name`, `email`, `business_name`, `existing_website`, `pro
 - **New project:** duplicate a project `<article>` in `#projects`, replace every pending field with verified content, add a meaningful category/status and technology list, and link to the actual repository and demo only when available. Link labels should identify the project; CSS-only placeholders are neutral visuals, not screenshots.
 - **Biography and skills:** edit `#about` and the hero supporting copy. Add only supported skills. The current list is drawn from the supplied biography.
 - **Research:** add or update `.research-entry` articles in `#research`. Include verified year, plain-language purpose, verified role, and document links. Downloads under `assets/research/` are source excerpts with personal appendices omitted; label excerpts accurately. Maintain the source record in docs/sources.md.
-- **Certificates:** replace the pending entry in `#certifications`; show issuer and actual issue date, avoiding unnecessary personal identifiers.
+- **Certificates:** add or update `.certificate-card` articles in `#certifications`; include the exact title, issuer, completion date, PDF link, and optional identifier. Only add a verification action for a real supplied verification URL. Certificate PDFs are under `assets/certificates/`. Keep dates machine-readable with `<time datetime="YYYY-MM-DD">`.
 - **Experience:** replace the pending details under About once verified roles are supplied.
 - **Form options/budget ranges:** edit the corresponding `<select>` options and feature checkboxes directly in `index.html`. Budget ranges qualify scope; they are not fixed pricing packages. Changing a project category requires matching its `.conditional` `data-project` value. Add a field's name and human-readable label to `reviewLabels` in `script.js` to include it in review.
 - **Destination email:** obtain/update the destination through Web3Forms' supported email/key settings, then replace the public key if required. Changing the visible email alone does not redirect Web3Forms. Update mailto links and failure text to match.

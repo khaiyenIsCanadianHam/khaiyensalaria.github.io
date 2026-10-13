@@ -15,6 +15,8 @@ These repositories were read for portfolio content, not installed or independent
 
 ## Research source record
 
+The user confirmed that the data-analysis, rural-education, and digital-literacy works are all concept papers. Their portfolio labels reflect that clarification; their years remain unspecified.
+
 All downloadable files are **excerpts of supplied source pages**, preserving the source-page content. They are not complete papers, publication links, or evidence of peer review. The long documents contain personal biography/appendix sections; those are excluded from the public excerpts. Source files remain outside this checkout. PDF metadata was reset when creating excerpts.
 
 | Displayed work | Source | Attribution/date evidence | Public excerpt |
@@ -27,7 +29,7 @@ All downloadable files are **excerpts of supplied source pages**, preserving the
 
 ## Remaining content gaps
 
-- Confirm years and author/contribution information for the three short concept/outline documents.
+- Confirm years and author/contribution information for the three concept papers.
 - Confirm the intended digital-literacy title and provide a corrected public source if available.
 - Specific contributions beyond co-authorship for the two 2025 papers remain unspecified.
 - Provide a formal publication URL only if actually available; coursework, drafts, and concept papers are not labeled as peer-reviewed publications.

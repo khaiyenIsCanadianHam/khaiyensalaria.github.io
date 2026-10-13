@@ -32,7 +32,7 @@ The four supplied project repositories and five research PDFs are now represente
 
 - `[TODO: INSERT PROFILE PHOTO]`: your portrait; you said this will arrive later.
 - Optional live demo URLs and additional real project screenshots; none were supplied. The project repositories are linked directly.
-- `[TODO: INSERT YEAR]`: years for the data-analysis concept paper, rural-education outline, and digital-literacy outline. Their author/contribution information is also absent; supply verified attribution and your specific role if you want it shown. The two 2025 academic papers list Khaiyen as a co-author; specific individual contributions and formal publication status are not established.
+- `[TODO: INSERT YEAR]`: years for the data-analysis, rural-education, and digital-literacy concept papers. Their author/contribution information is also absent; supply verified attribution and your specific role if you want it shown. The two 2025 academic papers list Khaiyen as a co-author; specific individual contributions and formal publication status are not established.
 - Clarify the digital-literacy PDF's cover-title mismatch before presenting its title as final. See docs/sources.md.
 - `[TODO: INSERT CERTIFICATIONS]`: certificate names, issuing organizations, issue dates, optional credential IDs, and actual verification URLs/documents. Omit verification links if unavailable.
 - `[TODO: INSERT VERIFIED PROFESSIONAL EXPERIENCE]`: roles, organizations, dates, responsibilities, and sources. Do not invent clients or employment history.
